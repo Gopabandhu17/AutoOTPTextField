@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
-
+/// This view is representing a OTP view
+/// You can enter the OTP once you received from the backend
+/// This is highly customizable
 struct OTPVerificatioView: View {
     
     @State var otpText: String = ""
