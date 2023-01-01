@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35845176296193CF002DD176 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35845175296193CF002DD176 /* View+Extensions.swift */; };
+		3584517829619428002DD176 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584517729619428002DD176 /* Binding+Extensions.swift */; };
 		35D9FCC429614C1C00788CFC /* AutoOTPTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9FCC329614C1C00788CFC /* AutoOTPTextFieldApp.swift */; };
 		35D9FCC629614C1C00788CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9FCC529614C1C00788CFC /* ContentView.swift */; };
 		35D9FCC829614C1F00788CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D9FCC729614C1F00788CFC /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35845175296193CF002DD176 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		3584517729619428002DD176 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
 		35D9FCC029614C1C00788CFC /* AutoOTPTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoOTPTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D9FCC329614C1C00788CFC /* AutoOTPTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPTextFieldApp.swift; sourceTree = "<group>"; };
 		35D9FCC529614C1C00788CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,7 @@
 		35D9FCC229614C1C00788CFC /* AutoOTPTextField */ = {
 			isa = PBXGroup;
 			children = (
+				35D9FCD4296191FD00788CFC /* Extensions */,
 				35D9FCD129614C3200788CFC /* View */,
 				35D9FCC329614C1C00788CFC /* AutoOTPTextFieldApp.swift */,
 				35D9FCC529614C1C00788CFC /* ContentView.swift */,
@@ -76,6 +81,15 @@
 				35D9FCD229614C5C00788CFC /* OTPVerificatioView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		35D9FCD4296191FD00788CFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35845175296193CF002DD176 /* View+Extensions.swift */,
+				3584517729619428002DD176 /* Binding+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3584517829619428002DD176 /* Binding+Extensions.swift in Sources */,
 				35D9FCC629614C1C00788CFC /* ContentView.swift in Sources */,
 				35D9FCD329614C5C00788CFC /* OTPVerificatioView.swift in Sources */,
+				35845176296193CF002DD176 /* View+Extensions.swift in Sources */,
 				35D9FCC429614C1C00788CFC /* AutoOTPTextFieldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
